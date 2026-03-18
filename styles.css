@@ -18,22 +18,52 @@
 
 body {
   background: var(--color-background);
-  color: var(--color-text); /* Color del texto */
+  color: var(--color-text);
 }
+
+/* Page spaces */
+header {
+  background-color: var(--dark-gray);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+main {
+  background-color: var(--gray);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 
 /* Links */
 a {
-  color: var(--color-text-link); /* link normal */
+  color: var(--color-text-link);
   text-decoration: none;
 }
+
 a:visited {
-  color: var(--color-text-link-visited); /* link ya visitado */
+  color: var(--color-text-link-visited);
 }
+
 a:hover {
-  color: var(--color-text-link-hover); /* al pasar el mouse */
+  color: var(--color-text-link-hover);
   text-decoration: underline;
 }
+
 a:active {
-  color: var(--color-text-link-active); /* mientras se pulsa */
+  color: var(--color-text-link-active);
   text-decoration: none;
+}
+
+
+/* Classes */
+
+.back-arrow {
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: 1;
 }
