@@ -1,0 +1,21 @@
+:root {
+  --light-pink: #F4B5FB;
+  --pink: #DC86F6;
+  --dark-pink: #AA55C2;
+  --black: #202124;
+  --dark-gray: #3D4042;
+  --gray: #616368;
+  --white: #FAFAFA;
+  --color-background: var(--black);
+  --color-surface: var(--light-pink);
+  --color-primary: var(--pink);
+  --color-primary-dark: var(--dark-pink);
+  --color-text: var(--white);
+  --color-text-soft: var(--light-pink);
+  --color-border: var(--gray);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text); /* Color del texto */
+}
