@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pau Fenollosa</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="blob.css">
 </head>
 
 <body>
@@ -15,15 +16,12 @@
   </header>
 
   <main>
-    <p align="center">
-    <div
-      style="width: 220px; height: 220px; margin: 0 auto; overflow: hidden; border-radius: 60% 40% 55% 45% / 45% 55% 35% 65%;">
+    <div class="profile-blob">
       <img src="images/pau.png" alt="Portrait of Pau Fenollosa">
     </div>
-    </p>
 
-    <div style="max-width: 50rem;  margin: 0 auto;">
-      <p style="text-align: left; background-color: var(--magenta);">
+    <div class="bio-copy">
+      <p>
         I'm a Unity Developer/Programmer (Generalist) specializing in XR, UI, tools, procedural content and VFX.
         With 5+ years of experience in video games and gamified experiences, I am passionate about create smooth and
         efficient experiences.
@@ -31,25 +29,10 @@
       </p>
     </div>
 
-    <div
-      style=" padding-top: 2rem; padding-bottom: 3rem; display: flex; justify-content: center; align-items: center; gap: 3rem; flex-wrap: wrap; background-color: var(--dark-gray);">
-
-      
-      <div
-         class="blob-link" style="width: 150px; height: 150px; background: var(--yellow); animation: blobCV 12s ease-in-out infinite; display: flex; justify-content: center; align-items: center;">
-        <a href="curriculum.html">CV</a>
-      </div>
-
-      <div
-        class="blob-link" style="width: 150px; height: 150px; background: var(--blue); animation: blobPorfolio 14s ease-in-out infinite; display: flex; justify-content: center; align-items: center;">
-        <a href="portfolio.html">Portfolio</a>
-      </div>
-
-      <div
-        class="blob-link" style="width: 150px; height: 150px; background: var(--magenta); animation: blobCodes 12s ease-in-out infinite; display: flex; justify-content: center; align-items: center;">
-        <a href="codes.html">Codes</a>
-      </div>
-
+    <div class="blob-row">
+      <a class="blob blob-cv" href="curriculum.html">CV</a>
+      <a class="blob blob-portfolio" href="portfolio.html">Portfolio</a>
+      <a class="blob blob-codes" href="codes.html">Codes</a>
     </div>
 
   </main>
