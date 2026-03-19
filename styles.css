@@ -98,25 +98,25 @@ a:active {
 
 /* Animations */
 
-@keyframes blobOne {
+@keyframes blobCodes {
   0% {
     border-radius: 60% 40% 55% 45% / 45% 55% 35% 65%;
   }
-
-  33% {
+  25% {
+    border-radius: 48% 52% 62% 38% / 40% 45% 55% 60%;
+  }
+  50% {
     border-radius: 42% 58% 63% 37% / 45% 35% 65% 55%;
   }
-
-  66% {
+  75% {
     border-radius: 55% 45% 35% 65% / 60% 40% 60% 40%;
   }
-
   100% {
     border-radius: 60% 40% 55% 45% / 45% 55% 35% 65%;
   }
 }
 
-@keyframes blobTwo {
+@keyframes blobCV {
   0% {
     border-radius: 35% 65% 52% 48% / 42% 38% 62% 58%;
   }
@@ -134,7 +134,7 @@ a:active {
   }
 }
 
-@keyframes blobThree {
+@keyframes blobPorfolio {
   0% {
     border-radius: 72% 28% 47% 53% / 39% 63% 37% 61%;
   }
