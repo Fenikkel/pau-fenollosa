@@ -29,32 +29,30 @@
 body {
   background: var(--color-background);
   color: var(--color-text);
+
+  display: flex;
+  flex-direction: column;
+  height: 94vh; /* 100 sobreix */
+
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 /* Page spaces */
 header {
   background-color: var(--dark-gray);
-  padding-top: 1.5rem;
-  /* padding-bottom: 2rem; */
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-top: 0.25rem;
 }
 
 main {
   background-color: var(--gray);
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  flex: 1;
 }
 
 footer {
   background-color: var(--dark-gray);
-
-  /* padding-top: 1rem; */
-  padding-bottom: 2rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 
