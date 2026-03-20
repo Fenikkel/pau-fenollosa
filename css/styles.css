@@ -25,6 +25,10 @@
   --color-text-link-active: var(--pink);
 }
 
+* {
+  font-family: Verdana, Segoe UI, Calibri, Helvetica, Arial, system-ui;
+}
+
 /* General */
 body {
   background: var(--color-background);
