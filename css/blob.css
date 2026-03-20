@@ -2,10 +2,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 5rem;
   flex-wrap: wrap;
   padding: 2rem 0 3rem;
   /* background-color: var(--dark-gray); */
+}
+
+.blob-text {
+  margin: 0;
+  font-size: 21px;
+  font-weight: bold;
+  /* font-weight: 500; */
+  font-family:  "Trebuchet MS", Verdana, "Segoe UI", Arial, sans-serif;
+  /* font-family: monospace, Verdana, Segoe UI, Calibri, Helvetica, Arial, system-ui; */
+  /* color: var(--dark-gray); */
+  color: var(--black);
+  /* color: var(--white); */
 }
 
 .blob {
@@ -19,7 +31,28 @@
 }
 
 .blob:hover {
-  transform: scale(1.08);
+  transform: scale(1.16);
+  text-decoration: none;
+}
+
+a.blob {
+  color: var(--dark-gray);
+  text-decoration: none;
+}
+
+a.blob:visited {
+  color: var(--dark-gray);
+}
+
+a.blob:hover {
+  /* color: var(--white); */
+  color: var(--dark-gray);
+  /* color: var(--black); */
+  text-decoration: underline;
+}
+
+a.blob:active {
+  color: var(--dark-gray);
   text-decoration: none;
 }
 
@@ -42,15 +75,19 @@
   0% {
     border-radius: 60% 40% 55% 45% / 45% 55% 35% 65%;
   }
+
   25% {
     border-radius: 48% 52% 62% 38% / 40% 45% 55% 60%;
   }
+
   50% {
     border-radius: 42% 58% 63% 37% / 45% 35% 65% 55%;
   }
+
   75% {
     border-radius: 55% 45% 35% 65% / 60% 40% 60% 40%;
   }
+
   100% {
     border-radius: 60% 40% 55% 45% / 45% 55% 35% 65%;
   }
@@ -60,15 +97,19 @@
   0% {
     border-radius: 35% 65% 52% 48% / 42% 38% 62% 58%;
   }
+
   25% {
     border-radius: 58% 42% 34% 66% / 50% 60% 40% 50%;
   }
+
   50% {
     border-radius: 46% 54% 68% 32% / 36% 52% 48% 64%;
   }
+
   75% {
     border-radius: 62% 38% 45% 55% / 58% 34% 66% 42%;
   }
+
   100% {
     border-radius: 35% 65% 52% 48% / 42% 38% 62% 58%;
   }
@@ -78,18 +119,23 @@
   0% {
     border-radius: 72% 28% 47% 53% / 39% 63% 37% 61%;
   }
+
   20% {
     border-radius: 43% 57% 68% 32% / 58% 34% 66% 42%;
   }
+
   40% {
     border-radius: 61% 39% 30% 70% / 45% 55% 45% 55%;
   }
+
   60% {
     border-radius: 34% 66% 55% 45% / 67% 33% 67% 33%;
   }
+
   80% {
     border-radius: 56% 44% 72% 28% / 31% 69% 31% 69%;
   }
+
   100% {
     border-radius: 72% 28% 47% 53% / 39% 63% 37% 61%;
   }
