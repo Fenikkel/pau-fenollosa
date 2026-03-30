@@ -23,8 +23,8 @@
   --color-text: var(--white);
   --color-line: var(--gray);
 
-  --color-text-link: var(--white);
-  --color-text-link-visited: var(--white);
+  --color-text-link: var(--teal);
+  --color-text-link-visited: var(--teal);
   --color-text-link-hover: var(--teal);
   --color-text-link-active: var(--teal);
 }
@@ -43,10 +43,14 @@ body {
   height: 94vh;
   /* 100 sobreix */
 
-  margin-left: 1.25rem;
+  width: min(100vw, 50rem); /* use the smaller of 100vw and 50rem as the element width */
+  margin: 1.25rem auto;
+  box-sizing: border-box;
+
+  /* margin-left: 1.25rem;
   margin-right: 1.25rem;
   margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.25rem; */
 }
 
 /* Page spaces */
@@ -104,6 +108,7 @@ a:active {
 }
 
 .spacer {
-  height: 1.5rem;
+  height: 3rem;
+  flex-shrink: 0;
   /* background-color: var(--teal); */
 }
