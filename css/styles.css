@@ -112,3 +112,9 @@ a:active {
   flex-shrink: 0;
   /* background-color: var(--teal); */
 }
+
+.tiny-up-arrow
+{
+  font-family: monospace; 
+  font-size: 1.5em;
+}

@@ -30,3 +30,8 @@
 .cv-table td:nth-child(4) {
   width: 45%;
 }
+
+.date-cell
+{
+    font-size: 0.95em;
+}
