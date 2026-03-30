@@ -161,3 +161,14 @@ a.blob:active {
   transform: scale(1.16);
   text-decoration: none;
 }
+
+.blob-arrow-text {
+  margin: 0;
+  font-size: 42px;
+  /* font-weight: bold; */
+  font-family: monospace, system-ui;  
+  /* font-family: monospace, Verdana, Segoe UI, Calibri, Helvetica, Arial, system-ui; */
+  /* color: var(--dark-gray); */
+  color: var(--black);
+  /* color: var(--white); */
+}
