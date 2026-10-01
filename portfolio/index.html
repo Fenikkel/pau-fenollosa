@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -7,43 +7,66 @@
   <title>Pau Fenollosa | Portfolio</title>
   <link rel="icon" type="image/png" href="../assets/images/favicon.png">
   <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/blob.css">
+  <link rel="stylesheet" href="../assets/css/portfolio.css">
 </head>
 
-<body>
-  <header class="page-header">
-    <a class="back-arrow" href="../">&larr;</a>
+<body class="portfolio-page">
+  <header class="portfolio-header">
+    <a class="arrow-blob blob-portfolio" href="../" aria-label="Back to home">
+      <span class="blob-arrow-text" aria-hidden="true">&larr;</span>
+    </a>
+    <h1 class="header-text">Portfolio 👾</h1>
+    <div class="header-line" aria-hidden="true"></div>
   </header>
 
   <main>
-    <section>
-      <h1>Portfolio (WIP)</h1>
-      <!--
-      <div style="font-family: Segoe UI; font-size: 20px;"> &larr; Segoe UI</div>
-      <div style="font-family: Calibri; font-size: 20px;"> &larr; Calibri</div>
-      <div style="font-family: Verdana; font-size: 20px;">&larr; Verdana</div>
-      <div style="font-family: Helvetica; font-size: 20px;">&larr; Helvetica</div>
-      <div style="font-family: Arial; font-size: 20px;">&larr; Arial</div>
-      <div style="font-family: system-ui; font-size: 20px;">&larr; system-ui</div> <br>
-      <div style="font-family: Georgia; font-size: 20px;">&larr; Georgia</div>
-      <div style="font-family: Tahoma; font-size: 20px;">&larr; Tahoma</div>
-      <div style="font-family: 'Trebuchet MS'; font-size: 20px;">&larr; Trebuchet MS</div>
-      <div style="font-family: Cambria; font-size: 20px;">&larr; Cambria</div> <br>
-      <div style="font-family: 'Times New Roman'; font-size: 20px;">&larr; Times New Roman</div>
-      <div style="font-family: Palatino; font-size: 20px;">&larr; Palatino</div> <br>
-      <div style="font-family: 'Courier New'; font-size: 20px;">&larr; Courier New</div>
-      <div style="font-family: monospace; font-size: 20px;">&larr; monospace</div> <br>
-      <div style="font-family: cursive; font-size: 20px;">&larr; cursive</div>
-      <div style="font-family: fantasy; font-size: 20px;">&larr; fantasy</div> <br>
-      <div style="font-family: serif; font-size: 20px;">&larr; serif</div>
-      <div style="font-family: sans-serif; font-size: 20px;">&larr; sans-serif</div>
-      -->
-      <p>
-        <a href="https://gist.github.com/Fenikkel/f98d86dd5b22b1e63304438f99764c38#-projects-" target="_blank">
-          View PROJECTS in the old portfolio
-        </a>
+    <section class="project">
+      <h2>Aequaland</h2>
+      <a class="project-preview" href="https://youtu.be/lqvG1u1BP4w" target="_blank" rel="noopener noreferrer" aria-label="Watch the Aequaland reel">
+        <img src="../assets/images/portfolio/aequaland.gif" alt="Preview of Aequaland minigames" width="568" height="256" decoding="async">
+      </a>
+      <p class="project-links">
+        <a href="https://youtu.be/lqvG1u1BP4w" target="_blank" rel="noopener noreferrer">Reel</a> <span aria-hidden="true">•</span>
+        <a href="https://apps.apple.com/us/developer/aequaland/id1667506896" target="_blank" rel="noopener noreferrer">iOS</a> <span aria-hidden="true">•</span>
+        <a href="https://play.google.com/store/apps/dev?id=8713443169938158176" target="_blank" rel="noopener noreferrer">Android</a> <span aria-hidden="true">•</span>
+        <a href="https://apps.microsoft.com/search/publisher?name=Aequaland%20Studio%20SA&amp;publisher=Aequaland%20Studio%20SA&amp;hl=en-us&amp;gl=US" target="_blank" rel="noopener noreferrer">Windows</a> <span aria-hidden="true">•</span>
+        <a href="https://gist.github.com/Fenikkel/55c2849c1deb6bdc450ee67fa71293af#aequaland" target="_blank" rel="noopener noreferrer">Info</a>
       </p>
+      <p>Lead on the development of these minigames. Constant communication with the artists and designers that provided the art and the GDD of the games. The games are localized in multiple languages through the use of the voice generation via AI.</p>
+    </section>
+
+    <section class="project">
+      <h2>Real-time VFX</h2>
+      <a class="project-preview" href="https://www.youtube.com/watch?v=I2Qx_jjJ2iE" target="_blank" rel="noopener noreferrer" aria-label="Watch the real-time VFX reel">
+        <img src="../assets/images/portfolio/real-time-vfx.gif" alt="Preview of real-time visual effects" width="256" height="256" loading="lazy" decoding="async">
+      </a>
+      <p class="project-links">
+        <a href="https://www.youtube.com/watch?v=I2Qx_jjJ2iE" target="_blank" rel="noopener noreferrer">Reel</a> <span aria-hidden="true">•</span>
+        <a href="https://gist.github.com/Fenikkel/96420c7fa923075e679254f37aaf64a3#real-time-vfx" target="_blank" rel="noopener noreferrer">Info</a>
+      </p>
+      <p>VFX are amazing by itself, but mixing them with another techniques and technologies can lead to mesmerizing results.</p>
+    </section>
+
+    <section class="project">
+      <h2>Extended reality</h2>
+      <a class="project-preview" href="https://youtu.be/ILlLwi1_nVc" target="_blank" rel="noopener noreferrer" aria-label="Watch the extended reality reel">
+        <img src="../assets/images/portfolio/extended-reality.gif" alt="Preview of extended reality experiences" width="454" height="256" loading="lazy" decoding="async">
+      </a>
+      <p class="project-links">
+        <a href="https://youtu.be/ILlLwi1_nVc" target="_blank" rel="noopener noreferrer">Reel</a> <span aria-hidden="true">•</span>
+        <a href="https://gist.github.com/Fenikkel/e562ca32b001ce88cdc66b446beb09b0#extended-reality" target="_blank" rel="noopener noreferrer">Info</a>
+      </p>
+      <p>The XR presents us a new world of interactions to be discovered. I am always making R&amp;D searching for new ways to play.</p>
     </section>
   </main>
+
+  <footer>
+    <div class="footer-line" aria-hidden="true"></div>
+    <p>
+      Contact me at: <a href="mailto:paufenollosa@gmail.com">paufenollosa@gmail.com</a>
+    </p>
+  </footer>
 </body>
 
 </html>

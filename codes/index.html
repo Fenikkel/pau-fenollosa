@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -7,29 +7,80 @@
   <title>Pau Fenollosa | Codes</title>
   <link rel="icon" type="image/png" href="../assets/images/favicon.png">
   <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/blob.css">
+  <link rel="stylesheet" href="../assets/css/list.css">
+  <link rel="stylesheet" href="../assets/css/codes.css">
 </head>
 
-<body>
-  <header class="page-header">
-    <a class="back-arrow" href="../">&larr;</a>
+<body class="codes-page">
+  <header class="codes-header">
+    <a class="arrow-blob blob-codes" href="../" aria-label="Back to home">
+      <span class="blob-arrow-text" aria-hidden="true">&larr;</span>
+    </a>
+    <h1 class="header-text">Codes 🤖</h1>
+    <div class="header-line" aria-hidden="true"></div>
   </header>
 
   <main>
+    <div class="codes-intro">
+      <p>I love to write scalable, flexible, and performant code. I try to follow as many patterns and principles as I can, but I don't force them to fit into projects. Sometimes, it's better to adjust to the project's needs and the company's resources (team, money, time, etc.).</p>
+      <p>Mainly, I am a defensive programmer, but my goal is to find a sweet spot between as many principles as I can (SOLID, DRY, MVP, etc.).</p>
+    </div>
+
     <section>
-      <h1>Codes (WIP)</h1>
-      <p>Contenido en construccion.</p>
-      <a href="https://gist.github.com/Fenikkel/4b72742320732804a482d3220411a85d#-codes-" target="_blank">
-        View CODES in the old portfolio
-      </a>
+      <h2>Code Snippets</h2>
+      <p>I usually contribute to the community with my personal library.</p>
+
+      <h3>Design Patterns:</h3>
+      <ul class="list">
+        <li><a href="https://gist.github.com/Fenikkel/ad033a959191ef2817ac328f721373ab#singleton-for-unity" target="_blank" rel="noopener noreferrer">Singleton</a></li>
+        <li><a href="https://gist.github.com/Fenikkel/2f97d1e3acd8b7f1a0fbc217b5a599cc#unitys-objectpool-simplified" target="_blank" rel="noopener noreferrer">Object pool</a></li>
+        <li><a href="https://gist.github.com/Fenikkel/e269a853efd872297c6a3011d1c64eb9#factory-pattern-for-unitys-prefabs" target="_blank" rel="noopener noreferrer">Factory</a></li>
+        <li><a href="https://gist.github.com/Fenikkel/803fb8fa5564a4a7306693c1012dbb58#static-event-bus" target="_blank" rel="noopener noreferrer">Event bus</a></li>
+      </ul>
+
+      <h3>Data Handling:</h3>
+      <ul class="list">
+        <li><a href="https://gist.github.com/Fenikkel/b9a6a4ecbd9725bf203a9a4cd537ddda#streaming-assets-loaders" target="_blank" rel="noopener noreferrer">Streaming assets</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Packages</h2>
+      <p>I create my custom packages to modularize my work, making it easier to manage, update, and share across multiple projects:</p>
+
+      <h3>Asset Store:</h3>
+      <ul class="list">
+        <li><a href="https://u3d.as/3cqR" target="_blank" rel="noopener noreferrer">Localized Narration</a></li>
+        <li><a href="https://u3d.as/3cdP" target="_blank" rel="noopener noreferrer">Localized Audio</a></li>
+        <li><a href="https://u3d.as/3c32" target="_blank" rel="noopener noreferrer">Localized Captions</a></li>
+        <li><a href="https://u3d.as/3bXj" target="_blank" rel="noopener noreferrer">Captions File Parser</a></li>
+      </ul>
+
+      <h3>Custom Unity Package:</h3>
+      <ul class="list">
+        <li><a href="https://github.com/Fenikkel/SimpleTween#readme" target="_blank" rel="noopener noreferrer">Simple Tween</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Other</h2>
+      <ul class="list">
+        <li><a href="https://gist.github.com/Fenikkel/5e51325a3cec827e81143f416f592dc9#interpolation-for-unity" target="_blank" rel="noopener noreferrer">Interpolation</a></li>
+        <li><a href="https://gist.github.com/Fenikkel/046005a2d1dc454fd0c0c965371cbe87#static-monobehaviour" target="_blank" rel="noopener noreferrer">Static MonoBehaviour</a></li>
+        <li><a href="https://gist.github.com/Fenikkel/8fc5efc2648622ba6b4d37751f8adf6e#static-coroutine" target="_blank" rel="noopener noreferrer">Static coroutines</a></li>
+        <li><a href="https://gist.github.com/Fenikkel/c9f44a1a1c35098eb8c4c627614afd97#springjoint-drag-2d-for-unity" target="_blank" rel="noopener noreferrer">SpringJoint2D drag</a></li>
+        <li><a href="https://gist.github.com/Fenikkel/11d97a43c82539877dda005bdba964ac#localization-editor-utilities" target="_blank" rel="noopener noreferrer">Localization utilities</a></li>
+      </ul>
     </section>
   </main>
-</body>
 
-<footer>
-  <div class="footer-line"></div>
-  <p style="font-size: 14px;">
-    Contact me at: <a href="mailto:paufenollosa@gmail.com">paufenollosa@gmail.com</a>
-  </p>
-</footer>
+  <footer>
+    <div class="footer-line" aria-hidden="true"></div>
+    <p>
+      Contact me at: <a href="mailto:paufenollosa@gmail.com">paufenollosa@gmail.com</a>
+    </p>
+  </footer>
+</body>
 
 </html>
