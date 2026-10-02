@@ -13,11 +13,11 @@
 </head>
 
 <body>
-  <header>
-    <a class="arrow-blob blob-cv blob-text-link" href="../">
-      <p class="blob-arrow-text">&larr;</p>
+  <header class="page-header">
+    <a class="arrow-blob blob-cv blob-text-link" href="../" aria-label="Back to home">
+      <span class="blob-arrow-text" aria-hidden="true">&larr;</span>
     </a>
-    <p class="header-text">Curriculum vitae 📄</p>
+    <h1 class="header-text">Curriculum <span class="header-title-tail">vitae 📄</span></h1>
     <div class="header-line"></div>
   </header>
 
@@ -26,188 +26,192 @@
   <main>
 
     <section>
-      <h3>Work experience</h3>
+      <h3 id="work-experience">Work experience</h3>
 
-      <table class="cv-table cv-table-experiece">
-        <thead>
-          <tr>
-            <th>Period</th>
-            <th>Company</th>
-            <th>Role</th>
-            <th>Functions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="date-cell">
-              Apr 2025<br>
-              <span class="tiny-up-arrow">↓</span>
-              <br>now
-            </td>
-            <td><a href="https://sound.games/" target="_blank">Sound games</a></td>
-            <td>Developer</td>
-            <td>Multiplayer video games</td>
-          </tr>
+      <div class="table-scroll" tabindex="0" role="region" aria-labelledby="work-experience">
+        <table class="cv-table cv-table-experiece">
+          <thead>
+            <tr>
+              <th>Period</th>
+              <th>Company</th>
+              <th>Role</th>
+              <th>Functions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="date-cell">
+                Apr 2025<br>
+                <span class="tiny-up-arrow">↓</span>
+                <br>now
+              </td>
+              <td><a href="https://sound.games/" target="_blank">Sound games</a></td>
+              <td>Developer</td>
+              <td>Multiplayer video games</td>
+            </tr>
 
-          <tr>
-            <td class="date-cell">Nov 2023<br>
-              <span class="tiny-up-arrow">↓</span>
-              <br>Mar 2025
-            </td>
-            <td>Freelance</td>
-            <td>Developer</td>
-            <td>Clients: <a href="https://www.amuseanimation.com/educational-apps/" target="_blank">Amuse</a>, <a
-                href="https://vitamin-arte.com/" target="_blank">Vitamin</a>, <a
-                href="https://www.instagram.com/aequaland/" target="_blank">Aequaland</a>, <a
-                href="https://www.hgbs.es/" target="_blank">HGBS</a>, etc</td>
-          </tr>
+            <tr>
+              <td class="date-cell">Nov 2023<br>
+                <span class="tiny-up-arrow">↓</span>
+                <br>Mar 2025
+              </td>
+              <td>Freelance</td>
+              <td>Developer</td>
+              <td>Clients: <a href="https://www.amuseanimation.com/educational-apps/" target="_blank">Amuse</a>, <a
+                  href="https://vitamin-arte.com/" target="_blank">Vitamin</a>, <a
+                  href="https://www.instagram.com/aequaland/" target="_blank">Aequaland</a>, <a
+                  href="https://www.hgbs.es/" target="_blank">HGBS</a>, etc</td>
+            </tr>
 
-          <tr>
-            <td class="date-cell">
-              May 2023<br>
-              <span class="tiny-up-arrow">↓</span>
-              <br>Nov 2023
-            </td>
-            <td><a href="https://www.instagram.com/aequaland/" target="_blank">Aequaland</a></td>
-            <td>Developer</td>
-            <td>Multi-platform educational video games</td>
-          </tr>
+            <tr>
+              <td class="date-cell">
+                May 2023<br>
+                <span class="tiny-up-arrow">↓</span>
+                <br>Nov 2023
+              </td>
+              <td><a href="https://www.instagram.com/aequaland/" target="_blank">Aequaland</a></td>
+              <td>Developer</td>
+              <td>Multi-platform educational video games</td>
+            </tr>
 
-          <tr>
-            <td class="date-cell">
-              Aug 2022<br>
-              <span class="tiny-up-arrow">↓</span>
-              <br>May 2023
-            </td>
-            <td><a href="https://playgoxp.com/" target="_blank">Play&Go</a></td>
-            <td>Developer</td>
-            <td>Tourism gamification and framework maintenance</td>
-          </tr>
+            <tr>
+              <td class="date-cell">
+                Aug 2022<br>
+                <span class="tiny-up-arrow">↓</span>
+                <br>May 2023
+              </td>
+              <td><a href="https://playgoxp.com/" target="_blank">Play&Go</a></td>
+              <td>Developer</td>
+              <td>Tourism gamification and framework maintenance</td>
+            </tr>
 
-          <tr>
-            <td class="date-cell">
-              May 2022<br>
-              <span class="tiny-up-arrow">↓</span>
-              <br>Jul 2022
-            </td>
-            <td><a href="https://www.sae.edu/esp/games/" target="_blank">SAE</a></td>
-            <td>Teacher</td>
-            <td>Advanced Unity programming lessons</td>
-          </tr>
+            <tr>
+              <td class="date-cell">
+                May 2022<br>
+                <span class="tiny-up-arrow">↓</span>
+                <br>Jul 2022
+              </td>
+              <td><a href="https://www.sae.edu/esp/games/" target="_blank">SAE</a></td>
+              <td>Teacher</td>
+              <td>Advanced Unity programming lessons</td>
+            </tr>
 
-          <tr>
-            <td class="date-cell">
-              Sep 2020<br>
-              <span class="tiny-up-arrow">↓</span>
-              <br>Jul 2022
-            </td>
-            <td><a href="https://vitamin-arte.com/" target="_blank">Vitamin</a></td>
-            <td>Developer</td>
-            <td>Interactive experiences, VFX artist and video mapping</td>
-          </tr>
+            <tr>
+              <td class="date-cell">
+                Sep 2020<br>
+                <span class="tiny-up-arrow">↓</span>
+                <br>Jul 2022
+              </td>
+              <td><a href="https://vitamin-arte.com/" target="_blank">Vitamin</a></td>
+              <td>Developer</td>
+              <td>Interactive experiences, VFX artist and video mapping</td>
+            </tr>
 
-          <tr>
-            <td class="date-cell">
-              Mar 2020<br>
-              <span class="tiny-up-arrow">↓</span>
-              <br>Sep 2020
-            </td>
-            <td>Covid-19</td>
-            <td>Survivor</td>
-            <td>Extra jobs for <a href="https://innoarea.com/en/" target="_blank">Innoarea</a> and my Bachelor's Thesis
-            </td>
-          </tr>
+            <tr>
+              <td class="date-cell">
+                Mar 2020<br>
+                <span class="tiny-up-arrow">↓</span>
+                <br>Sep 2020
+              </td>
+              <td>Covid-19</td>
+              <td>Survivor</td>
+              <td>Extra jobs for <a href="https://innoarea.com/en/" target="_blank">Innoarea</a> and my Bachelor's Thesis
+              </td>
+            </tr>
 
-          <tr>
-            <td class="date-cell">
-              Jan 2020<br>
-              <span class="tiny-up-arrow">↓</span>
-              <br>Mar 2020
-            </td>
-            <td><a href="https://innoarea.com/en/" target="_blank">Innoarea</a></td>
-            <td>Intern</td>
-            <td>VR and AR app development for several XR headsets</td>
-          </tr>
+            <tr>
+              <td class="date-cell">
+                Jan 2020<br>
+                <span class="tiny-up-arrow">↓</span>
+                <br>Mar 2020
+              </td>
+              <td><a href="https://innoarea.com/en/" target="_blank">Innoarea</a></td>
+              <td>Intern</td>
+              <td>VR and AR app development for several XR headsets</td>
+            </tr>
 
-          <tr>
-            <td class="date-cell">
-              Mar 2019<br>
-              <span class="tiny-up-arrow">↓</span>
-              <br>Jan 2020
-            </td>
-            <td><a href="https://www.init.uji.es/?lang=en" target="_blank">INIT</a></td>
-            <td>Intern</td>
-            <td>VR games and experiences</td>
-          </tr>
+            <tr>
+              <td class="date-cell">
+                Mar 2019<br>
+                <span class="tiny-up-arrow">↓</span>
+                <br>Jan 2020
+              </td>
+              <td><a href="https://www.init.uji.es/?lang=en" target="_blank">INIT</a></td>
+              <td>Intern</td>
+              <td>VR games and experiences</td>
+            </tr>
 
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <div class="spacer"></div>
 
-    <h3>Side projects</h3>
+    <h3 id="side-projects">Side projects</h3>
 
     <section>
-      <table class="cv-table cv-table-side">
-        <thead>
-          <tr>
-            <th>Year</th>
-            <th>Activity</th>
-            <th>Project</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2026</td>
-            <td>Project</td>
-            <td>Created this portfolio website</td>
-          </tr>
-          <tr>
-            <td>2025</td>
-            <td>Study</td>
-            <td>Studied the web development <a
-                href="https://www.theodinproject.com/paths/foundations/courses/foundations"
-                target="_blank">Foundations</a> course of <a href="https://www.theodinproject.com" target="_blank">The
-                Odin Project</a></td>
-          </tr>
-          <tr>
-            <td>2024</td>
-            <td>Hackathon</td>
-            <td>Hacker in the <a href="https://xr-hack-london.devpost.com/" target="_blank">Global XR Hack</a> in London
-              alongside my <a href="https://www.linkedin.com/feed/update/urn:li:activity:7231573874826444800/"
-                target="_blank">team</a> to prototype our idea <a href="https://devpost.com/software/kairocity"
-                target="_blank">Kairosity</a></td>
-          </tr>
+      <div class="table-scroll" tabindex="0" role="region" aria-labelledby="side-projects">
+        <table class="cv-table cv-table-side">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Activity</th>
+              <th>Project</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2026</td>
+              <td>Project</td>
+              <td>Created this portfolio website</td>
+            </tr>
+            <tr>
+              <td>2025</td>
+              <td>Study</td>
+              <td>Studied the web development <a
+                  href="https://www.theodinproject.com/paths/foundations/courses/foundations"
+                  target="_blank">Foundations</a> course of <a href="https://www.theodinproject.com" target="_blank">The
+                  Odin Project</a></td>
+            </tr>
+            <tr>
+              <td>2024</td>
+              <td>Hackathon</td>
+              <td>Hacker in the <a href="https://xr-hack-london.devpost.com/" target="_blank">Global XR Hack</a> in London
+                alongside my <a href="https://www.linkedin.com/feed/update/urn:li:activity:7231573874826444800/"
+                  target="_blank">team</a> to prototype our idea <a href="https://devpost.com/software/kairocity"
+                  target="_blank">Kairosity</a></td>
+            </tr>
 
-          <tr>
-            <td>2024</td>
-            <td>Game Jam</td>
-            <td>Participating alongside with the <a href="https://www.bravezebra.com/" target="_blank">Brave Zebra</a>
-              team to make <a href="https://globalgamejam.org/games/2024/super-smile-bros-3" target="_blank">Super Smile
-                Bros</a> in the GGJ2024</td>
-          </tr>
+            <tr>
+              <td>2024</td>
+              <td>Game Jam</td>
+              <td>Participating alongside with the <a href="https://www.bravezebra.com/" target="_blank">Brave Zebra</a>
+                team to make <a href="https://globalgamejam.org/games/2024/super-smile-bros-3" target="_blank">Super Smile
+                  Bros</a> in the GGJ2024</td>
+            </tr>
 
-          <tr>
-            <td>2022</td>
-            <td>Lecturer</td>
-            <td>Giving lessons in <a href="https://brotherad.com/valencia/" target="_blank">Brother</a> in the <a
-                href="https://www.instagram.com/p/CVQjeVWN-62/?img_index=2" target="_blank">Brother del Futuro</a> and
-              <a href="https://www.instagram.com/p/Cc5HwBmtk7_/" target="_blank">B Experience</a> courses
-            </td>
-          </tr>
+            <tr>
+              <td>2022</td>
+              <td>Lecturer</td>
+              <td>Giving lessons in <a href="https://brotherad.com/valencia/" target="_blank">Brother</a> in the <a
+                  href="https://www.instagram.com/p/CVQjeVWN-62/?img_index=2" target="_blank">Brother del Futuro</a> and
+                <a href="https://www.instagram.com/p/Cc5HwBmtk7_/" target="_blank">B Experience</a> courses
+              </td>
+            </tr>
 
-          <tr>
-            <td>2021</td>
-            <td>Artist residency</td>
-            <td>Exhibited my videogame at the cultural spaces <a
-                href="https://www.consorcimuseus.gva.es/centro-del-carmen/exposicion/climate-replay/"
-                target="_blank">CCCC</a> and <a href="https://www.youtube.com/watch?v=6JG0aHEQqA8"
-                target="_blank">Menador</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+            <tr>
+              <td>2021</td>
+              <td>Artist residency</td>
+              <td>Exhibited my videogame at the cultural spaces <a
+                  href="https://www.consorcimuseus.gva.es/centro-del-carmen/exposicion/climate-replay/"
+                  target="_blank">CCCC</a> and <a href="https://www.youtube.com/watch?v=6JG0aHEQqA8"
+                  target="_blank">Menador</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
     </section>
 
@@ -282,16 +286,16 @@
     </section>
 
   </main>
+
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+
+  <footer>
+    <div class="footer-line"></div>
+    <p style="font-size: 14px;">
+      Contact me at: <a href="mailto:paufenollosa@gmail.com">paufenollosa@gmail.com</a>
+    </p>
+  </footer>
 </body>
-
-<div class="spacer"></div>
-<div class="spacer"></div>
-
-<footer>
-  <div class="footer-line"></div>
-  <p style="font-size: 14px;">
-    Contact me at: <a href="mailto:paufenollosa@gmail.com">paufenollosa@gmail.com</a>
-  </p>
-</footer>
 
 </html>

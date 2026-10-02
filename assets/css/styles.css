@@ -53,8 +53,8 @@ body {
   min-height: calc(100vh - 2.5rem);
   /* keep the 1.25rem top/bottom margins without clipping the gradient */
 
-  width: min(100vw, 50rem);
-  /* use the smaller of 100vw and 50rem as the element width */
+  width: min(calc(100% - 2.5rem), 50rem);
+  /* keep 1.25rem side margins up to the 50rem maximum width */
   margin: 1.25rem auto;
   box-sizing: border-box;
 
@@ -108,6 +108,42 @@ a:active {
   font-size: 1.5em;
 }
 
+.page-header {
+  position: relative;
+}
+
+.page-header .arrow-blob {
+  left: 0;
+  top: 0;
+}
+
+.page-header .header-text {
+  padding-inline: 3rem;
+  min-height: 40px;
+  line-height: 40px;
+  font-weight: normal;
+}
+
+.header-title-tail {
+  white-space: nowrap;
+}
+
+.page-header .arrow-blob:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 4px;
+}
+
+.profile-photo {
+  width: min(100%, 256px);
+  margin: 20px auto 0;
+}
+
+.profile-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .header-line {
   height: 0.5px;
   background-color: var(--color-line);
@@ -132,4 +168,16 @@ a:active {
 .disclaimer {
   font-size: 0.67em;
   color: var(--light-gray);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-header .blob-cv {
+    animation: none;
+    transition: none;
+    border-radius: 35% 65% 52% 48% / 42% 38% 62% 58%;
+  }
+
+  .page-header .blob-cv:hover {
+    transform: none;
+  }
 }
