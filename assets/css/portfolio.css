@@ -33,6 +33,14 @@
   height: auto;
 }
 
+.project-preview-link {
+  transition: transform 200ms ease;
+}
+
+.project-preview-link:hover {
+  transform: scale(1.04);
+}
+
 .portfolio-page .project-links {
   margin-bottom: 2rem;
   text-align: center;
@@ -43,7 +51,8 @@
   display: inline-block;
 }
 
-.portfolio-page a:focus-visible {
+.portfolio-page a:focus-visible,
+.project-video:focus-visible {
   outline: 2px solid var(--teal);
   outline-offset: 4px;
 }
@@ -59,8 +68,14 @@
   margin-bottom: 3rem;
 }
 
-.project-detail .project-intro .project-preview {
-  margin-top: 0;
+.project-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto 1.5rem;
+  border: 0;
 }
 
 .project-detail .detail-section + .detail-section {
@@ -97,6 +112,14 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .project-preview-link {
+    transition: none;
+  }
+
+  .project-preview-link:hover {
+    transform: none;
+  }
+
   .portfolio-header .arrow-blob {
     animation: none;
     transition: none;
