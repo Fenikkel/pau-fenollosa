@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="../../assets/css/styles.css">
   <link rel="stylesheet" href="../../assets/css/blob.css">
   <link rel="stylesheet" href="../../assets/css/list.css">
-  <link rel="stylesheet" href="../../assets/css/portfolio.css?v=2">
+  <link rel="stylesheet" href="../../assets/css/portfolio.css?v=3">
+  <script src="../../assets/js/project-video.js" defer></script>
 </head>
 
 <body class="portfolio-page project-detail">
@@ -23,7 +24,17 @@
 
   <main>
     <div class="project-intro">
-      <iframe class="project-video" src="https://www.youtube.com/embed/lqvG1u1BP4w?playsinline=1" title="Aequaland video" width="800" height="450" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      <div class="project-video" data-video-player>
+        <iframe class="project-video-frame" src="https://www.youtube.com/embed/lqvG1u1BP4w?playsinline=1&amp;enablejsapi=1&amp;controls=0&amp;disablekb=1&amp;fs=0&amp;rel=0" title="Aequaland video" width="800" height="450" tabindex="-1" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        <button class="video-toggle" type="button" aria-label="Play Aequaland video" disabled>
+          <svg class="video-play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <button class="video-fullscreen" type="button" aria-label="Enter fullscreen" aria-pressed="false" title="Enter fullscreen" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg>
+        </button>
+        <p class="video-error" role="status" hidden>Unable to load this video. <a href="https://youtu.be/lqvG1u1BP4w" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>.</p>
+      </div>
+      <noscript><p><a href="https://youtu.be/lqvG1u1BP4w" target="_blank" rel="noopener noreferrer">Watch the Aequaland video on YouTube</a>.</p></noscript>
       <p>Lead on the development of these minigames. Constant communication with the artists and designers that provided the art and the GDD of the games. The games are localized in multiple languages through the use of the voice generation via AI.</p>
     </div>
 
